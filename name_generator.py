@@ -60,6 +60,7 @@ def letter():
             letter_first='y'
         else:
             letter_first='z'
+        rand=random.randint(1, 26)
         if rand==1:
             letter_second='a'
         elif rand==2:
@@ -89,26 +90,132 @@ def letter():
         elif rand==14:
             letter_second='n'
         elif rand==15:
-            letter_first='o'
+            letter_second='o'
         elif rand==16:
-            letter_first='p'
+            letter_second='p'
         elif rand==17:
-            letter_first='q'
+            letter_second='q'
         elif rand==18:
-            letter_first='r'
+            letter_second='r'
         elif rand==19:
-            letter_first='s'
+            letter_second='s'
         elif rand==20:
-            letter_first='t'
+            letter_second='t'
         elif rand==21:
-            letter_first='u'
+            letter_second='u'
         elif rand==22:
-            letter_first='v'
+            letter_second='v'
         elif rand==23:
-            letter_first='w'
+            letter_second='w'
         elif rand==24:
-            letter_first='x'
+            letter_second='x'
         elif rand==25:
-            letter_first='y'
-        elif rand==26:
-            letter_first='z'
+            letter_second='y'
+        else:
+            letter_second='z'
+        rand=random.randint(1, 26)
+        if rand==1:
+            letter_third='a'
+        elif rand==2:
+            letter_third='b'
+        elif rand==3:
+            letter_third='c'
+        elif rand==4:
+            letter_third='d'
+        elif rand==5:
+            letter_third='e'
+        elif rand==6:
+            letter_third='f'
+        elif rand==7:
+            letter_third='g'
+        elif rand==8:
+            letter_third='h'
+        elif rand==9:
+            letter_third='i'
+        elif rand==10:
+            letter_third='j'
+        elif rand==11:
+            letter_third='k'
+        elif rand==12:
+            letter_third='l'
+        elif rand==13:
+            letter_third='m'
+        elif rand==14:
+            letter_third='n'
+        elif rand==15:
+            letter_third='o'
+        elif rand==16:
+            letter_third='p'
+        elif rand==17:
+            letter_third='q'
+        elif rand==18:
+            letter_third='r'
+        elif rand==19:
+            letter_third='s'
+        elif rand==20:
+            letter_third='t'
+        elif rand==21:
+            letter_third='u'
+        elif rand==22:
+            letter_third='v'
+        elif rand==23:
+            letter_third='w'
+        elif rand==24:
+            letter_third='x'
+        elif rand==25:
+            letter_third='y'
+        else:
+            letter_third='z'
+        rand=random.randint(1, 26)
+        if rand==1:
+            letter_fourth='a'
+        elif rand==2:
+            letter_fourth='b'
+        elif rand==3:
+            letter_fourth='c'
+        elif rand==4:
+            letter_fourth='d'
+        elif rand==5:
+            letter_fourth='e'
+        elif rand==6:
+            letter_fourth='f'
+        elif rand==7:
+            letter_third='g'
+        elif rand==8:
+            letter_third='h'
+        elif rand==9:
+            letter_third='i'
+        elif rand==10:
+            letter_third='j'
+        elif rand==11:
+            letter_third='k'
+        elif rand==12:
+            letter_third='l'
+        elif rand==13:
+            letter_third='m'
+        elif rand==14:
+            letter_third='n'
+        elif rand==15:
+            letter_third='o'
+        elif rand==16:
+            letter_third='p'
+        elif rand==17:
+            letter_third='q'
+        elif rand==18:
+            letter_third='r'
+        elif rand==19:
+            letter_third='s'
+        elif rand==20:
+            letter_third='t'
+        elif rand==21:
+            letter_third='u'
+        elif rand==22:
+            letter_third='v'
+        elif rand==23:
+            letter_third='w'
+        elif rand==24:
+            letter_third='x'
+        elif rand==25:
+            letter_third='y'
+        else:
+            letter_third='z'
