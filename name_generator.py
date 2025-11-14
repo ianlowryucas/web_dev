@@ -29,8 +29,33 @@ def letter():
         elif rand==3:
             letter_first='j'
         elif rand==3:
-            letter_first='c'
+            letter_first='k'
         elif rand==3:
-            letter_first='c'
+            letter_first='l'
         elif rand==3:
-            letter_first='c'
+            letter_first='m'
+        elif rand==2:
+            letter_first='n'
+        elif rand==3:
+            letter_first='o'
+        elif rand==3:
+            letter_first='p'
+        elif rand==3:
+            letter_first='q'
+        elif rand==3:
+            letter_first='r'
+        elif rand==3:
+            letter_first='s'
+        elif rand==3:
+            letter_first='t'
+        elif rand==3:
+            letter_first='u'
+        elif rand==3:
+            letter_first='v'
+        elif rand==3:
+            letter_first='w'
+        elif rand==3:
+            letter_first='x'
+        elif rand==3:
+            letter_first='y'
+
