@@ -1,0 +1,49 @@
+#left{
+    width: 50vw;
+    margin-left: 3px;
+}
+#right{
+    width: 50vw;
+    margin-right: 3px;
+    border: 10px;
+}
+#hi{
+    width: 45vw;
+    width: auto;
+    border-width: 10px;
+}
+#content-wrapper{
+    display: flex;
+}
+#one-wrapper{
+    display: flex;
+    justify-content: center;
+}
+#list-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    color: rgb(255, 0, 0);
+}
+.orange{
+    color: orange;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.purple{
+    color: purple;
+}
+button{
+    margin: 50px;
+    padding: 10px;
+    background-color: aqua;
+    box-shadow: 1000px;
+}
