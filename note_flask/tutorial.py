@@ -14,7 +14,7 @@ def contact():
 
 @app.route("/<name>")
 def user(name):
-    return f"<h1>hi {name}</h1>"
+    return render_template("index.html")
 
 
 if __name__ == "__main__":

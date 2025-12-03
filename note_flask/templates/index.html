@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-        img{
-            height: 200px;
-            width: auto;
-        }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HI</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block content %}HI - FLASKER{% endblock %}
+
+{% block body %}
     <h1>HIHIHIHIHIHIHIHIHIHIHIHIHIFLASK</h1>
     <form method="POST">
         <label for="name">enter your user name</label> 
@@ -20,5 +10,4 @@
         <input type="submit" value="Submit">
     </form>
     <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630">
-</body>
-</html>
+{% endblock %}
